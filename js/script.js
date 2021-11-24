@@ -32,7 +32,7 @@ if (animItems.length > 0) {
     setTimeout(() => {
         animOnScroll();
     }, 400);
-}        */
+}    */    /*
 var isScrolling = false;
  
     window.addEventListener("scroll", throttleScroll, false);

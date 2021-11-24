@@ -60,7 +60,7 @@ img {
 section {
     padding: 50px 0;
 }
-/*header*/
+/*navbar*/
 .nav-item {
     color: #000;
     font-weight: 600;
@@ -71,7 +71,6 @@ section {
     max-width: 120px;
     padding: 10px 20px;
 }
-/*header*/
 /*body*/
 .full-screen {
 	position: relative;
@@ -113,7 +112,6 @@ section {
 	text-align: center;
 	line-height: 2;
 }
-
 @media (max-width: 1200px){
 	.full-screen_title {
 		font-size: 50px;
@@ -154,8 +152,6 @@ section {
 		letter-spacing: 2px;
 	}
 }	
-
-
 .full-screen_video {
 	position: absolute;
 	top: 0;
@@ -193,6 +189,7 @@ section {
 	text-align: center;
 	line-height: 2;
 }
+/*список*/
 .items {
 	display: flex;
 	flex: 1 1 auto;
@@ -325,6 +322,7 @@ section {
 		justify-content: center;
 	}
 }
+/*карточки*/
 .cards {
 	display: flex;
 	flex: 0 1 auto;
@@ -349,7 +347,7 @@ section {
 	min-width: 350px;
 	box-shadow: 0 0 1em rgba(80, 75, 75, 0.212);
 	border: none;
-	padding: 10px;
+	padding: 10px 30px 10px 10px;
 }
 .card a {
 	display: block; /* Ссылка как блочный элемент */
@@ -367,7 +365,7 @@ a {
 	font-size: 20px;
 	letter-spacing: 10px;
 	font-weight: 600;
-	padding: 15px 0px 10px 15px;
+	padding: 15px 10px;
 	letter-spacing: 0.1px;
 	text-align: start;
 	text-decoration: none !important;
@@ -379,7 +377,7 @@ a {
 	letter-spacing: 0.1px;
 	text-align: start;
 	line-height: 1.5;
-	padding: 0px 0px 30px 15px;
+	padding: 15px 10px;
 	text-decoration: none !important;
 	color: black;
 }/*
@@ -443,7 +441,6 @@ a {
 		font-size: 20px;
 		letter-spacing: 10px;
 		font-weight: 600;
-		padding: 15px 0px 10px 15px;
 		letter-spacing: 0.1px;
 	}
 	.card_text {
@@ -451,7 +448,6 @@ a {
 		font-weight: 400;
 		letter-spacing: 0.1px;
 		line-height: 1.5;
-		padding: 0px 0px 30px 15px;
 	}
 }	
 @media (max-width: 992px){
@@ -475,7 +471,6 @@ a {
 		font-size: 20px;
 		letter-spacing: 10px;
 		font-weight: 600;
-		padding: 15px 0px 10px 15px;
 		letter-spacing: 0.1px;
 	}
 	.card_text {
@@ -483,7 +478,6 @@ a {
 		font-weight: 400;
 		letter-spacing: 0.1px;
 		line-height: 1.5;
-		padding: 0px 0px 30px 15px;
 	}
 }	
 @media (max-width: 767px){
@@ -506,7 +500,6 @@ a {
 		font-size: 20px;
 		letter-spacing: 10px;
 		font-weight: 600;
-		padding: 15px 0px 10px 15px;
 		letter-spacing: 0.1px;
 	}
 	.card_text {
@@ -514,7 +507,6 @@ a {
 		font-weight: 400;
 		letter-spacing: 0.1px;
 		line-height: 1.5;
-		padding: 0px 0px 30px 15px;
 	}
 }	
 @media (max-width: 479px){
@@ -537,7 +529,6 @@ a {
 		font-size: 18px;
 		letter-spacing: 10px;
 		font-weight: 600;
-		padding: 15px 0px 10px 15px;
 		letter-spacing: 0.1px;
 	}
 	.card_text {
@@ -545,7 +536,6 @@ a {
 		font-weight: 400;
 		letter-spacing: 0.1px;
 		line-height: 1.5;
-		padding: 0px 0px 30px 15px;
 	}
 }
 @media (max-width: 370px){
@@ -568,7 +558,6 @@ a {
 		font-size: 18px;
 		letter-spacing: 10px;
 		font-weight: 600;
-		padding: 15px 0px 10px 15px;
 		letter-spacing: 0.1px;
 	}
 	.card_text {
@@ -576,9 +565,37 @@ a {
 		font-weight: 400;
 		letter-spacing: 0.1px;
 		line-height: 1.5;
-		padding: 0px 0px 30px 15px;
 	}
 	.arrow-3 {
 		padding: 0px 0px 50px 15px;
 	}
+}
+/*RUM в твоём городе*/
+.section2 {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+}
+.section2_title {
+	font-size: 50px;
+	letter-spacing: 10px;
+	font-weight: 700;
+	margin: 0 0 60px 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+.colortext {
+}
+.section2_text {
+	margin-top: 20px;
+	max-width: 800px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 5px;
+	text-align: center;
+	line-height: 2;
 }
