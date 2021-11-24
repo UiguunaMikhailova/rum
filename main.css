@@ -1,0 +1,31 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    min-width: 320px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    padding: 50px 0;
+}
+a {
+    color: #111;
+}
+a:hover {
+    color: #555;
+}
+/*header*/
+.nav_item {
+    color: #111;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/*header*/
