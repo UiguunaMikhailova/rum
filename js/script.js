@@ -1,5 +1,25 @@
 $(document).ready(function(){
-  $('.slider').slick();
+  $('.slider').slick({
+    arrows:true,
+    dots:false,
+    adaptiveHeight:false,
+    slidesToShow:4,
+    slidesToScroll:1,
+    speed:300,
+    easing:'ease',
+    infinite:true,
+    initialSlide:0,
+    autoplay:false,
+    draggable:false,
+    swipe:true,
+    touchTreshhold:8,
+    touchMove:true,
+    waitForAnimate:true,
+    centerMode:false,
+    variableWidth:false,
+    rows:1,
+    
+  });
 });
 
 

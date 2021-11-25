@@ -370,11 +370,13 @@ a {
 
 }
 /* Стрелка влево */
-.slick-arrow.slick-prev{
-
+.slick-arrow.slick-prev {
+	background: url('../images/left-arrow.svg') 0 0 / 100% no-repeat;
 }
 /* Стрелка вправо */
-.slick-arrow.slick-next{}
+.slick-arrow.slick-next {
+	background: url('../images/right-arrow.svg') 0 0 / 100% no-repeat;
+}
 /* Стрелка не активная */
 .slick-arrow.slick-disabled{}
 /* Точки (булиты) */
@@ -388,12 +390,17 @@ a {
 
 .slider {
 	min-width: 0;
+	position: relative;
+	padding: 0px 60px;
 }
 .slider .slick-arrow {
 	position: absolute;
 	top: 50%;
+	margin: -30px 0px 0px 0px;
 	z-index: 10;
 	font-size: 0;
+	width: 40px;
+	height: 60px;
 }
 .slider .slick-arrow.slick-prev {
 	left: 0;
