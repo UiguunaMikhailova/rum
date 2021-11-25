@@ -1,3 +1,51 @@
+$(document).ready(function(){
+  $('.slider').slick();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 const animItems = document.querySelectorAll('_anim-items');
 
@@ -70,7 +118,6 @@ var isScrolling = false;
         document.body.classList.remove("colorOne");
       }
  */
-
 
       /*
       for (var i = 0; i < listItems.length; i++) {
