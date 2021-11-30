@@ -392,6 +392,7 @@ a {
 	min-width: 0;
 	position: relative;
 	padding: 0px 60px;
+	margin: 50px 100px 100px;
 }
 .slider .slick-arrow {
 	position: absolute;
@@ -409,8 +410,19 @@ a {
 	right: 0;
 }
 .slider_item {
-
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
 }
+.slider_link img {
+	border-radius: 10px 10px 0px 0px;
+	width: 250px;
+}
+.slider_link2 img {
+	border-radius: 0px 0px 10px 10px;
+	width: 250px;
+}
+
 
 
 
