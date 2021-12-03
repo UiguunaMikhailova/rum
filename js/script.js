@@ -4,21 +4,24 @@ $(document).ready(function(){
     dots:false,
     adaptiveHeight:false,
     slidesToShow:4,
-    slidesToScroll:1,
-    speed:300,
-    easing:'ease',
-    infinite:true,
-    initialSlide:0,
-    autoplay:false,
-    draggable:false,
-    swipe:true,
-    touchTreshhold:8,
-    touchMove:true,
-    waitForAnimate:true,
-    centerMode:false,
-    variableWidth:false,
-    rows:1,
-    
+    responsive: [
+      {
+        breakpoint: 1056,
+        settings: {
+          slidesToShow: 3
+        }
+      },{
+        breakpoint: 880,
+        settings: {
+          slidesToShow: 2
+        }
+      },{
+        breakpoint: 687,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   });
 });
 

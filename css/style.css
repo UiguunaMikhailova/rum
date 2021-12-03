@@ -344,6 +344,7 @@ a {
 /* Лента слайдов */
 .slick-track{
 	display: flex;
+	justify-content: space-around;
 }
 /* Слайд */
 .slick-slide{
@@ -392,8 +393,10 @@ a {
 	min-width: 0;
 	position: relative;
 	padding: 0px 60px;
-	margin: 50px 100px 100px;
+	margin: 100px 0px;
 }
+
+
 .slider .slick-arrow {
 	position: absolute;
 	top: 50%;
@@ -413,16 +416,80 @@ a {
 	display: flex;
 	flex-direction: column;
 	margin: 10px;
+	border-radius: 5%;
+	min-width: 260px;
+	max-width: 260px;
+	height: 380px;
+	background-image: url(../images/Владивосток.webp);
+	background-position: center;
+	background-size: cover;
 }
-.slider_link img {
-	border-radius: 10px 10px 0px 0px;
-	width: 250px;
+@media (max-width: 1266px){
+	.slider_item {
+		min-width: 190px;
+		max-width: 260px;
+		height: 300px;
+	}
+	.slider {
+		margin: 100px 40px;
+	}
 }
-.slider_link2 img {
-	border-radius: 0px 0px 10px 10px;
-	width: 250px;
+@media (max-width: 440px){
+	.slider {
+		margin: 100px 0px;
+	}
+	.slider_item {
+		min-width: 100px;
+		max-width: 170px;
+		height: 250px;
+	}
 }
-
+a.slider_text:active, /* активная/посещенная ссылка */
+a.slider_text:hover,  /* при наведении */
+a.slider_text {
+  text-decoration: none;
+  color: #fff;
+}
+.slider_text {
+	max-width: 200px;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+	text-align: start;
+	position: relative;
+    left: 6%;
+    top: 89%;
+}
+/*.slider_text_wrapper {
+	display: inline-flex;
+}*/
+.right {
+	width: 18px;
+	height: 20px;
+	position: relative;
+	cursor: pointer;
+	left: 63%;
+}
+.right::before,
+.right::after {
+	content: '';
+	position: absolute;
+}
+.right::before {
+	width: 18px;
+	height: 1px;
+	background-color: #fff;
+	top: 1636%;
+}
+.right::after {
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	transform: rotate(135deg);
+	width: 7px;
+	height: 7px;
+	top: 1622%;
+	left: 60%;
+}
 
 
 
